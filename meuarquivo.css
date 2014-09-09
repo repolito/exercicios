@@ -1,0 +1,52 @@
+/* tag
+regra funciona para todas as tags divs */
+body div{
+	/*criar propriedades
+	-muda a cor do texto*/
+	color: red;
+	/*cor no hexadecimal*/
+	background: #ECECEC;
+	padding: 20px;
+	text-align: center;
+}
+/* class
+regra funciona para todas as tags com classe textoExemplo*/
+body .textoExemplo{
+	background: #0000CC;
+}
+/* id
+regra funciona apenas para a tag com id */
+body #unico{
+	background: #CC0000;
+}
+/*acessa todos os cabeçalhos que estão dentro do artigo*/
+.artigo .cabecalho{
+	color: blue;
+	text-align: center;
+	background: #CC00ff
+}
+/*acessa todos os h3 que estão dentro dos cabeçalhos que fazem parte de um artigo*/
+.artigo .cabecalho h3{
+	color: green;
+}
+/*acessa todos os p dentro de um artigo*/
+.artigo p{
+	color: gray;
+}
+/*acessa todos os rodapés que estiverem dentro de um artigo*/
+.artigo .rodape{
+	color: black;
+	text-align: left;
+}
+/*acessa todos os a que estiverem dentro de um rodapé dentro de um artigo*/
+.artigo .rodape a{
+	color: orange;
+}
+.artigo{
+
+}
+.cabecalho{
+	color: blue;
+	text-align: center;
+	background: #0000CC
+}

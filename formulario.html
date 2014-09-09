@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<!--é uma tag que permite colocar informações de entrada-->
+	<head>
+		<title>Formulario</title>
+	</head>
+
+	<body>
+		<!-- tag de formulário
+		método: post e get
+		action: nome de um arquivo.php jav -->
+		<form method="get" action="">
+			<!--cria um contorno-->
+			<fieldset>
+				<legend>Dados pessoais: </legend>
+				<label for="nome"> Nome: </label>
+				<input id="nome" type="text" name="nome" placeholder="Digite seu nome"/><br/> 
+
+				<label for="sobrenome"> Sobrenome: </label>
+				<input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome"/><br/>
+				Senha: <input type="password" name="senha"/><br/>
+				
+				<label for="sex"> Sexo: </label></br>
+				<input type="radio" name="sex" value="1"/> Masculino<br/>
+				<input type="radio" name="sex" value="2"/> Feminino<br/>
+
+				<label for name="carros"> Carros: </label></br>
+				<select name="carros">
+					<option value="volvo"> Volvo </option>
+					<option value="GM"> GM </option>
+					<option value="mercedes"> Mercedes </option>
+					<option value="audi"> Audi </option>
+				</select>
+
+			</fieldset>
+			
+			<input type="submit" value="enviar"><br/>
+			<!--button não é muito utilizado
+			<input type="button" value="enviar">
+			nova tag do html5
+			<button> enviar </button>-->
+			
+
+		</form>
+	</body>
+</html>

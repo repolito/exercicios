@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Segunda aula</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<!--
+		<imagem
+		 id="logoGoogle" class; no css # logoGoogle .
+		alt = coloca se a imagem não carregar
+		title = mostra o texto quando o mouse é posicionado em cima da imagem
+		height = altura sempre em pixels
+		 ismap = mapeamento da imagem
+		<img src="http://goo.gl/z17sto" width="200" id="logoGoogle" alt="blahblahblahlalalalala" title="Google">
+		imagem dentro do link
+	 	-->
+		<!--<a href="http://google.com.br" target="_blank"> 
+			<img src="http://goo.gl/z17sto" width="200" id="logoGoogle" alt="blahblahblahlalalalala" title="Google">
+
+		</a>-->
+
+		<!--links, # diz para entrar na própria página-->
+		<!--target: blank: nova página, outro site; self: mesma página; parent: ???-->
+		<a href="#" target="_self"> Hiperlink </a>
+		<!--link absoluto: url completa, usa um protocolo-->
+		<a href="http://google.com.br" target="_blank"> Hiperlink absoluto</a>
+		<!--link relativo: link para dentro do próprio site-->
+		<a href="primeiraAula.html" target="_self">Hiperlink relativo</a>
+		<!-- hiperlink para mail: abre ferramenta para enviar email, conta vinculada no pc-->
+		<a href="mailto:lalala@lala.com.br"> Hiperlink MAIL</a>
+
+		<!--tabela-->
+		<!--table = tag da tabela; tr = tag de linha (row); td = tag de células (cell)-->
+		<table border="1">
+			<tr>
+				<td>linha1, celula1</td>
+				<td>linha1, celula2</td>
+			</tr>
+			<tr>
+				<td>linha2, celula1</td>
+				<td>linha2, celula2</td>
+			</tr>
+		</table>
+
+		<table border="1">
+			<!-- <thead> diz que é uma linha de cabeçalho-->
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+			</tr>
+			<tr>
+				<td>row 1, cell 1</td>
+				<td>row 1, cell 2</td>
+			</tr>
+			<!-- <tfooter> coloca o conteudo no fim da tabela-->
+			<tr>
+				<td>row 2, cell 1</td>
+				<td>row 2, cell 2</td>
+			</tr>
+		</table>
+
+		<table border="1">
+			<thead>
+				<th> H1 </th>
+				<th> H2 </th>
+			</thead>
+			<tr>
+				<td rowspan="2"> A1 + B2 </td>
+				<td> A2 </td>
+			</tr>
+			<tr>
+				<!-- ocupada pelalinha superior A1 -->
+				<td> B2 </td>
+			</tr>
+			<tr>
+				<td colspan="2"> C1 + C2 </td>
+				<!-- <td> ccc</td> -->
+			</tr>
+		</table>
+
+	</body>
+</html>
